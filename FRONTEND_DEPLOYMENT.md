@@ -3,15 +3,15 @@
 ## ✅ Backend URL Updated
 
 The frontend is now configured to use the production backend:
-- **Backend URL**: `https://insightly-backend-production.up.railway.app`
+- **Backend URL**: `https://insightly-backend-f847.onrender.com`
 
 ## 📝 Environment Variables
 
 The frontend uses these environment variables (set in `.env.local` for local dev, or in your deployment platform):
 
 ```env
-NEXT_PUBLIC_API_URL=https://insightly-backend-production.up.railway.app
-NEXT_PUBLIC_BACKEND_URL=https://insightly-backend-production.up.railway.app
+NEXT_PUBLIC_API_URL=https://insightly-backend-f847.onrender.com
+NEXT_PUBLIC_BACKEND_URL=https://insightly-backend-f847.onrender.com
 NEXT_PUBLIC_SUPABASE_URL=https://wekemzpplaowqdxyjgmt.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ```
@@ -35,8 +35,8 @@ git push origin main
    - **Root Directory**: `frontend` (or leave blank if repo is just frontend)
    - **Framework**: Next.js (auto-detected)
 4. **Set Environment Variables**:
-   - `NEXT_PUBLIC_API_URL` = `https://insightly-backend-production.up.railway.app`
-   - `NEXT_PUBLIC_BACKEND_URL` = `https://insightly-backend-production.up.railway.app`
+   - `NEXT_PUBLIC_API_URL` = `https://insightly-backend-f847.onrender.com`
+   - `NEXT_PUBLIC_BACKEND_URL` = `https://insightly-backend-f847.onrender.com`
    - `NEXT_PUBLIC_SUPABASE_URL` = `https://wekemzpplaowqdxyjgmt.supabase.co`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY` = (your Supabase anon key)
 5. Deploy!
@@ -44,7 +44,7 @@ git push origin main
 ## 🔄 After Deployment
 
 Once deployed, your frontend will:
-- ✅ Connect to production backend at `https://insightly-backend-production.up.railway.app`
+- ✅ Connect to production backend at `https://insightly-backend-f847.onrender.com`
 - ✅ Use Supabase for authentication
 - ✅ Be ready for production use!
 
